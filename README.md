@@ -1,2 +1,2 @@
 # scratch
-![screenshot.png]
+![sreenshot.png]
