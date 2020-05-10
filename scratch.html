@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>scratch en la web</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        html {
+
+            width: 2200px;
+            height: 5000px;
+            background-image: url(img/logo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 13%;
+            background-position: 3% 25%;
+
+        }
+
+        body {
+            zoom:85%;
+            width: 1500px;
+            height: 2000px;
+            background-color: hsl(217, 75%, 95%);
+            text-align: center;
+            margin: auto
+        }
+
+        main {
+            width: inherit;
+            height: 1800px;
+
+            border-radius: 40px;
+            text-align: center;
+            background-color: #aaaaaa;
+
+
+        }
+
+        .cont {
+            padding-top: 100px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+        }
+
+        .cont>div>h2 {
+
+            color: purple;
+            font-size: 60px;
+            font-family: sans-serif;
+
+        }
+
+
+        body {
+
+            font-size: 30px;
+            color: #F8A936;
+            font-family: 'Luckiest Guy', cursive;
+        }
+
+        header div {
+            display: block;
+            padding: 10px;
+
+            /*background: #2f89fc;*/
+
+        }
+
+        header div img {
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+        }
+
+        header {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 220px 1fr 220px;
+        }
+
+        .video {
+            margin-top: 60px;
+
+        }
+
+        /*animacion*/
+        .right-img {
+            position: relative;
+            animation-name: example;
+            animation-duration: 10s;
+
+        }
+
+        @keyframes example {
+            0% {
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                left: 0px;
+                top: 0px;
+            }
+
+            75% {
+                left: 200px;
+                top: 0px;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+        .left-img {
+            position: relative;
+            animation-name: example;
+            animation-duration: 10s;
+
+        }
+
+        @keyframes example {
+            0% {
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                left: 0px;
+                top: 0px
+            }
+
+            75% {
+                left: 200px;
+                top: 0px;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left-img">
+            <img src="img/01.jpg" alt="jhes pensando">
+        </div>
+        <div class="title">
+            <h1>Que puedo hacer con scratch ?</h1>
+        </div>
+
+        <div class="right-img">
+            <img src="img/02.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="cont">
+            <div>
+                <h2>contar historias</h2>
+                <iframe src="https://scratch.mit.edu/projects/112279911/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+            <div>
+                <h2>Manuales</h2>
+                <iframe src="https://scratch.mit.edu/projects/391703687/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+            <div>
+                <h2>secuencias</h2>
+                <iframe src="https://scratch.mit.edu/projects/387060008/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+            <div>
+                <h1>juegos didacticos</h1>
+                <iframe src="https://scratch.mit.edu/projects/339737686/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+
+            <div>
+                <h2>evangelizar</h2>
+                <iframe src="https://scratch.mit.edu/projects/237723464/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+
+            <div>
+                <h2>juegos de ocio</h2>
+                <iframe src="https://scratch.mit.edu/projects/388838135/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+
+        </div>
+    </main>
+
+
+    <div class"video">
+        <h1>to meet cool people!!</h1>
+        <iframe src="https://www.youtube.com/embed/7XQOVKd-vVI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowtransparency="true" width="1000" height="700" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+
+</body>
+
+</html>
