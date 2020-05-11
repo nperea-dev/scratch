@@ -1,2 +1,3 @@
 # scratch
-![sreenshot.png]
+
+![Caption](sreenshot.png) {#fig:screenshot}
